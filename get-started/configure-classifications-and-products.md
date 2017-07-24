@@ -24,7 +24,7 @@ ms.assetid: 5ddde4e6-d553-4182-b752-6bc8b4a26745
 > [!NOTE]  
 >  Use the procedure from this section only on the top-level site.  
 
- Software updates metadata is retrieved during the synchronization process in Configuration Manager based on the settings that you specify in the Software Update Point component properties. After you synchronize software updates for the first time, or when new products and classifications are released, you must go to the properties to select the new items. Use the following procedure to configure classifications and products to synchronize.  
+ Software updates metadata is retrieved during the process of synchronization in Configuration Manager based on the settings that you specify in the Software Update Point component properties. After you synchronize software updates for the first time, or when new products and classifications are released, you must go to the properties to select the new items. Use the following procedure to configure classifications and products to synchronize.  
 
 #### To configure classifications and products to synchronize  
 
