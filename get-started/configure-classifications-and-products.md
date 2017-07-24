@@ -24,7 +24,7 @@ ms.assetid: 5ddde4e6-d553-4182-b752-6bc8b4a26745
 > [!NOTE]  
 >  Use the procedure from this section only on the top-level site.  
 
- Software updates metadata is retrieved during the synchronization process in Configuration Manager based on the settings that you specify in the Software Update Point component properties. After you synchronize software updates for the first time, or when new products and classifications are released, you must go to the properties to select the new items. Use the following procedure to configure classifications and products to synchronize.  
+ Software updates metadata is retrieved during synchronization in Configuration Manager based on the settings that you specify in the Software Update Point component properties. After you synchronize software updates for the first time, or when new products and classifications are released, you must go to the properties to select the new items. Use the following procedure to configure classifications and products to synchronize.  
 
 #### To configure classifications and products to synchronize  
 
@@ -51,7 +51,7 @@ ms.assetid: 5ddde4e6-d553-4182-b752-6bc8b4a26745
     >   
     >      Your software update points and sites must run a minimum of WSUS 4.0 with the [hotfix 3095113](https://support.microsoft.com/kb/3095113) to get the **Upgrade** classification.  
 
-5.  On the **Products** tab, specify the products for which you want to synchronize software updates, and then click **Close**.  
+5.  On the **Products** tab, choose the products that you want to synchronize, and then click **Close**.  
 
     > [!NOTE]  
     >  The metadata for each software update defines the products for which the update is applicable. A product is a specific edition of an operating system or application, such as Windows Server 2012. A product family is the base operating system or application from which the individual products are derived. An example of a product family is Windows, of which Windows Server 2012 is a member. You can specify a product family or individual products within a product family. The more products that you select, the longer it will take to synchronize software updates.  
